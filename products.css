@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+#navbar {
+  height: 65px;
+  padding: 20px;
+}
+
+.navbar-item {
+  color: #333;
+  font-size: 30px;
+  padding: 10px 50px;
+}
+
+.navbar-item:hover {
+  color: rgb(181, 78, 0);
+}
+
+.block {
+  font-size: 60px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image-section img {
+  padding: 50px 20px;
+}
+
+li {
+  list-style-type: none;
+}
