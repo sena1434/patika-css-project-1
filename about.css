@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(211, 205, 205);
+}
+
+#navbar {
+  height: 65px;
+  padding: 20px;
+}
+
+.navbar-item {
+  color: #333;
+  font-size: 30px;
+  padding: 10px 50px;
+}
+
+.navbar-item:hover {
+  color: rgb(181, 78, 0);
+}
+
+.block {
+  font-size: 70px;
+  color: rgb(181, 78, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.about-item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  padding: 100px 400px;
+  color: rgb(181, 78, 0);
+}
